@@ -1,0 +1,130 @@
+
+#Matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  z-index: -1;
+}
+
+.container {
+  background-color: black;
+  color: rgb(248, 248, 248);
+  text-align: left;
+  font-size: 10px;
+  height: 500px;
+  min-width: 500px;
+  margin-top: 14%;
+  margin-bottom: 27%;
+  margin-right: 30%;
+  margin-left: 12%;
+  box-shadow: grey 3px 3px 5px;
+  max-width: 600px;
+  border-style: solid;
+  border-image: initial;
+  border-color: white;
+  border-width: 1px;
+  padding: 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.header-box {
+  display: flex;
+  height: 30px;
+  font-size: small;
+  justify-content: space-between;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+}
+
+.header-profile img {
+  height: 100%;
+  width: 100%;
+}
+
+.header-symbols {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.icon {
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin-top: 3px;
+  justify-content: center;
+  margin-inline: 4px;
+}
+
+.header-title {
+  max-width: 65%;
+  flex-grow: 2;
+}
+
+h1 {
+  font-size: 12px;
+  font-family: Silkscreen;
+  font-weight: 100;
+  color: rgb(54, 203, 25);
+  margin: 6px;
+}
+
+
+.terminal-contents {
+  font-size: 12px;
+  font-family: Silkscreen;
+  padding: 10px;
+}
+
+.terminal-contents p {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.terminal-pills {
+  text-align: center;
+  font-family: Silkscreen;
+  border-top: 1px solid white;
+}
+
+.pill-sections {
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 50px;
+}
+
+.pill-image {
+  width: 50px;
+  animation: rotation 2s infinite linear;
+  animation-play-state: paused;
+}
+
+.pill-image:hover {
+  animation: rotation 2s infinite linear;
+}
+
+h2 {
+  color: rgb(54, 203, 25);
+}
+
+#blue {
+  color: rgb(35, 120, 238);
+}
+
+#red {
+  color: red;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
